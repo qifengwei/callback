@@ -1,6 +1,11 @@
 pipeline{
 
     stages{
+        stage('begin'){
+            steps{
+                echo 'begin'
+            }
+        }
     
         stage('deploy'){
             steps{
